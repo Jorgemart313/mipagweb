@@ -1,20 +1,3 @@
-/**
- * CertCarousel.jsx
- * ─────────────────────────────────────────────────────
- * Carrusel infinito horizontal de certificados.
- * Las imágenes son horizontales (landscape).
- *
- * 🖼️  CÓMO AGREGAR TUS CERTIFICADOS:
- * 1. Poné tus imágenes en src/assets/certs/
- *    Ej: cert1.jpg, cert2.jpg, cert3.jpg ...
- * 2. Importalas abajo donde dice "CAMBIÁ ESTOS IMPORTS"
- * 3. Actualizá el array CERTS con los datos de cada uno
- *
- * Ejemplo de import:
- *   import cert1 from "../assets/certs/python-udemy.jpg";
- * ─────────────────────────────────────────────────────
- */
-
 import { useState, useRef, useEffect } from "react";
 import cert1 from './assets/certificados/anglia.jpg';
 import cert2 from './assets/certificados/Certificado de Bases de datos sql_page-0001.jpg';
@@ -25,17 +8,7 @@ import cert6 from './assets/certificados/certificado_jorge_rafael_martinez_delga
 import cert7 from './assets/certificados/N8n total.jpg';
 import cert8 from './assets/certificados/Scan_20260117 (2).jpg';
 
-// ── 🔧 CAMBIÁ ESTOS IMPORTS POR TUS CERTIFICADOS REALES ──────────────────────
-// import cert1 from "../assets/certs/python-ds.jpg";
-// import cert2 from "../assets/certs/python-avanzado.jpg";
-// import cert3 from "../assets/certs/webdev.jpg";
-// import cert4 from "../assets/certs/database.jpg";
-// import cert5 from "../assets/certs/google-ai.jpg";
-// import cert6 from "../assets/certs/robotica.jpg";
-// import cert7 from "../assets/certs/esol.jpg";
-// ─────────────────────────────────────────────────────────────────────────────
 
-// ── 🔧 CAMBIÁ ESTE ARRAY CON TUS DATOS ───────────────────────────────────────
 const CERTS = [
   {
     src: cert1,

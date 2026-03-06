@@ -1,18 +1,4 @@
-/**
- * PhotoCarousel.jsx
- * ─────────────────────────────────────────────────────
- * Carrusel automático estilo pixel art para el portfolio.
- *
- * 🖼️  CÓMO AGREGAR TUS FOTOS:
- * 1. Poné tus fotos en la carpeta src/assets/  (ej: foto1.jpg, foto2.jpg)
- * 2. Reemplazá los imports de abajo con tus archivos reales.
- * 3. Actualizá el array PHOTOS con los imports y las descripciones que quieras.
- *
- * Ejemplo:
- *   import foto1 from "../assets/mi-foto-1.jpg";
- *   import foto2 from "../assets/mi-foto-2.jpg";
- * ─────────────────────────────────────────────────────
- */
+
 
 import { useState, useEffect, useRef } from "react";
 import foto1 from "./assets/Fotos/WhatsApp Image 2026-03-05 at 14.08.27.jpeg";
@@ -28,14 +14,7 @@ import foto10 from "./assets/Fotos/WhatsApp Image 2026-03-05 at 14.06.28 (1).jpe
 import foto11 from "./assets/Fotos/WhatsApp Image 2026-03-05 at 14.14.33.jpeg";
 
 
-// ── 🔧 CAMBIÁ ESTOS IMPORTS POR TUS FOTOS REALES ──────────────────────────────
-// import foto1 from "../assets/foto1.jpg";
-// import foto2 from "../assets/foto2.jpg";
-// import foto3 from "../assets/foto3.jpg";
-// import foto4 from "../assets/foto4.jpg";
-// ──────────────────────────────────────────────────────────────────────────────
 
-// ── 🔧 CAMBIÁ ESTE ARRAY CON TUS DATOS ───────────────────────────────────────
 const PHOTOS = [
   { src: foto1, label: "📸 Foto 1", caption: "" },
   { src: foto2, label: "📸 Foto 2", caption: "" },
